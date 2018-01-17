@@ -6,7 +6,6 @@ from time import sleep
 class builder(object):
 
     order = 33
-    builderSuccess_url = "http://192.168.1.110:8000/jobmng/dojob/"+str(order)
     def __init__(self):
         self.builder_url = "http://192.168.1.110:8000/"
         self.a_href = "/jobmng/dojob/"+str(self.order)
